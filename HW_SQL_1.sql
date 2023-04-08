@@ -222,7 +222,7 @@ create table roles_employees(
 			references roles1(id)
 );
 
---11) Наполнить таблицу roles_employees
+--11) Наполнить таблицу roles_employees 40 строками.
 
 insert into roles_employees(employee_id, role_id)
 values (65, 20),
@@ -266,5 +266,35 @@ values (65, 20),
 	   (68, 17),
 	   (54, 16);
 
+select * from roles1 ;
+select * from roles_employees ;
+select * from emplyee_salary ;
 
 
+
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
